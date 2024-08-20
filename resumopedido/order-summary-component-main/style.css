@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container{
+    background-color: white;
+    max-width: 400px;
+    height: 520px;
+    margin: auto;
+    margin-top: 45px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hero-image{
+    width: 400px;
+    border-radius: 10px 10px 0 0;
+}
+.title{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.description{
+    color: gray;
+    padding: 20px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.plan{
+    background-color: hsl(240, 9%, 96%);
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px auto;
+}
+
+.plan-details{
+    line-height: 20px;
+}
+
+.plan-name{
+    color: rgb(105, 104, 104);
+    font-weight: bold;
+}
+
+.plan-price{
+    color: rgb(105, 104, 104);
+    text-align: center;
+}
+
+
+.icon-music{
+    width: 40px;
+    margin-left: 2px;
+}
+
+
+.change-link{
+    font-weight: bold;
+}
+
+.payment-button{
+    display: block;
+    color: white;
+    font-weight: bolder;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+.cancel-button {
+    background-color: transparent;
+    color: rgb(110, 109, 109);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    width: 100px;
+    margin: 8px auto 0;
+    display: block;
+
+}
+
+footer a{
+    color: gray;
+    text-decoration: none;
+}
+
+footer{
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+  
