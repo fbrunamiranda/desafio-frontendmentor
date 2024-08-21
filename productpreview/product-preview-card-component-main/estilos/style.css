@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&family=Sriracha&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&family=Sriracha&family=Young+Serif&display=swap');
+
+/* Mobile First */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 12px;
+    width: 80%;
+    height: 100%;
+    margin: 7px auto;
+}
+
+.imagem-produto{
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+
+.categoria{
+    font-family: "Montserrat", sans-serif;
+    color: gray;
+    font-size: 14px;
+    margin: 15px 10px 10px 22px;
+}
+
+.titulo{
+    font-family: "Fraunces", sans-serif;
+    font-weight: 900;
+    margin: 20px 10px 10px 22px;
+}
+
+.descricao{
+    color: gray;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    margin: 20px 10px 5px 22px;
+
+}
+
+.preco{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.preco-atual{
+    color: hsl(158, 36%, 37%);
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "Fraunces", sans-serif;
+    margin: 20px 10px 15px 22px;
+}
+
+.preco-original{
+    font-family: "Montserrat", sans-serif;
+    color: gray;
+    text-decoration: line-through;
+}
+
+.botao-carrinho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: hsl(158, 36%, 37%);
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    width: 80%;
+    height: 45px;
+    margin: 15px auto;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.botao-carrinho:hover{
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(158, 36%, 37%);
+}
+
+footer{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+}
+
+footer a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color:  hsl(0, 0%, 0%);
+} 

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Product preview card component</title>
+  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="estilos/style.css" media="all">
+  <link rel="stylesheet" href="estilos/mediaquery.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <picture>
+      <source media="(min-width: 1200px)" srcset="images/image-product-desktop.jpg">
+      <img class="imagem-produto" src="images/image-product-mobile.jpg" alt="Perfume">
+    </picture>
+
+    <div class="conteudo">
+      <h3 class="categoria">P E R F U M E</h3>
+      <h1 class="titulo">Gabrielle Essence <br> Eau De Parfum</h1>
+      <p class="descricao">
+        A floral, solar and voluptuous interpretation composed by Olivier Polge,
+        Perfumer-Creator for the House of CHANEL.
+      </p>
+
+      <div class="preco">
+        <p class="preco-atual">$149.99</p>
+        <p class="preco-original">$169.99</p>
+      </div>
+      
+      <div class="botao">
+        <button class="botao-carrinho">
+          <img class="imagem-carrinho" src="images/icon-cart.svg" alt="icone carrinho de compras">
+          Add to cart
+        </button>
+      </div>
+    </div>
+    
+    
+
+  </div>
+
+      <footer>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Bruna Miranda</a>.
+      </footer>
+</body>
+</html>
